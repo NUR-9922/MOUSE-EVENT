@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+
+    height: 100%;
+    width: 100%;
+    font-size: 1.4rem;
+    text-rendering: optimizeLegibility;
+    position: absolute;
+
+
+}
+
+.sec-1 {
+    background-image:
+    url(https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&w=600);
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.sec-1 h1{
+    text-align: center;
+    font-family: roboto;
+    color: rgba(255, 255, 255, 0.537);
+    text-transform: uppercase;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    #btn-1 {
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    right: 43%;
+    top: 50%;
+    z-index: 1;
+    background-color: rgb(49, 255, 49);
+    border: 0px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 28px;
+    font-family: roboto;
+    font-weight: 700;
+    cursor: pointer;
+    transition: opacity .3s ease-in;
+    -webkit-transition: opacity .3s ease-in;
+    -moz-transition: opacity .3s ease-in;
+    -ms-transition: opacity .3s ease-in;
+    -o-transition: opacity .3s ease-in;
+}
+
+
+#btn-1::before {
+    content: "Click";
+}
+
+#btn-1:hover::before {
+    display: none;
+}
+
+#btn-1::after {
+    content: "ok";
+    display: none;
+}
+
+#btn-1:hover::after {
+    display: block;
+}
+
+
+.events {
+    width: 78%;
+    height: 550px;
+    margin: 1px auto;
+    background-color: rgba(2, 183, 255, 0.199);
+
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transition: all 1s;
+    -o-transform: scale(0);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    position: relative;
+}
+
+.box {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.click {
+    width: 170px;
+    height: 170px;
+    margin: 100px auto;
+    margin-top: 20px;
+    border: 0px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: block;
+    text-transform: uppercase;
+    font-family: roboto;
+    font-size: 18px;
+    font-weight: 700;
+    transition: transform .1s ease-in-out;
+    -webkit-transition: transform .1s ease-in-out;
+    -moz-transition: transform .1s ease-in-out;
+    -ms-transition: transform .1s ease-in-out;
+    -o-transition: transform .1s ease-in-out;
+    position: relative;
+}
+.click h1 {
+    margin-top: 100%;
+}
+
+.overlay {
+    position: absolute;
+    margin-left: 0px;
+    width: 170px;
+    height: 170px;
+    background-color: #ff0000;
+    background-size: 200px ;
+    border-radius: 10px;
+opacity: 0;
+    cursor: pointer;
+}
+  
+  .overlay:hover{
+opacity: 1;
+}
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top : 40% ;
+  }
+
+.click:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+
+.click:nth-child(1) {
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+
+}
+.click:nth-child(2) {
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+.click:nth-child(3) {
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    
+}
+.click:nth-child(4) {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    
+}
+.click:nth-child(5) {
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    
+}
+.click:nth-child(6) {
+    background-image: radial-gradient( circle 897px at 9% 80.3%,  rgba(55,60,245,1) 0%, rgba(234,161,15,0.90) 100.2% );
+}
+.click:nth-child(7) {
+    background-image: linear-gradient( 259deg,  rgba(222,95,95,1) -5%, rgba(53,88,218,1) 133.7% );
+}

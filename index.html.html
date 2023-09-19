@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="sec-1">
+
+        <h1>7 mouse events</h1>
+        <button id="btn-1" onclick="removeBlur()"></button>
+        <div class="events" id="events">
+
+            <div class="box">
+                <div class="click" id="onclick" onclick="myfun1()">
+
+                    <div class="overlay">
+                        <div class="text">onclick</div>
+                    </div>
+                    <h1>1</h1>
+                </div>
+                <div class="click" id="ondblclick" ondblclick="myfun2()">
+                    <div class="overlay">
+                        <div class="text">ondblclick</div>
+                    </div>
+                    <h1>3</h1>
+                </div>
+                <div class="click" id="oncontextmenu" oncontextmenu="myfun3()">
+                    <div class="overlay">
+                        <div class="text">oncontextmenu</div>
+                    </div>
+                    <h1>3</h1>
+                </div>
+                <div class="click" id="onmouseenter" onmouseenter="myfun4()">
+                    <div class="overlay">
+                        <div class="text">onmouseenter</div>
+                    </div>
+                    <h1>4</h1>
+                </div>
+                <div class="click" id="onmouseup" onmouseup="myfun5()">
+                    <div class="overlay">
+                        <div class="text">onmouseup</div>
+                    </div>
+                    <h1>5</h1>
+                </div>
+                <div class="click" id="onmousedown" onmousedown="myfun6()">
+                    <div class="overlay">
+                        <div class="text">onmousedown</div>
+                    </div>
+                    <h1>6</h1>
+                </div>
+                <div class="click" id="onmouseout" onmouseout="myfun7()">
+                    <div class="overlay">
+                        <div class="text">onmouseout</div>
+                    </div>
+                    <h1>7</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js">
+
+    </script>
+
+
+</body>
+
+</html>
